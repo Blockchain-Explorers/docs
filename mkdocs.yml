@@ -1,9 +1,6 @@
-site_name: MKDOCS-GITHUB-PAGES TEMPLATE
+site_name: Blockchain Explorers
 nav:
   - Overview: 'index.md'
-  - Examples:
-      - 'Diagrams & Charts': 'examples/diagrams.md'
-      - 'Text Formatting': 'examples/formatting.md'
 
 theme:
   name: material
