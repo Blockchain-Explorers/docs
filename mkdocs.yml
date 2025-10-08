@@ -1,0 +1,55 @@
+site_name: MKDOCS-GITHUB-PAGES TEMPLATE
+nav:
+  - Overview: 'index.md'
+  - Examples:
+      - 'Diagrams & Charts': 'examples/diagrams.md'
+      - 'Text Formatting': 'examples/formatting.md'
+
+theme:
+  name: material
+  font:
+    text: IBM Plex Sans
+    code: IBM Plex Mono
+  palette:
+    - media: '(prefers-color-scheme: light)'
+      scheme: default
+      primary: black
+      accent: blue
+      toggle:
+        icon: material/toggle-switch-off-outline
+        name: Switch to dark mode
+    - media: '(prefers-color-scheme: dark)'
+      scheme: slate
+      primary: blue
+      accent: blue
+      toggle:
+        icon: material/toggle-switch
+        name: Switch to light mode
+  features:
+    - navigation.expand # remove this to not expand navigation items
+    - toc.follow
+    - toc.integrate
+    - toc.
+markdown_extensions:
+  - admonition
+  - abbr
+  - attr_list
+  - def_list
+  - pymdownx.details  # allow accordion fold https://facelessuser.github.io/pymdown-extensions/extensions/details/
+  - pymdownx.snippets # allow tooltips
+  - pymdownx.superfences:
+      custom_fences:
+        - name: mermaid
+          class: mermaid
+          format: !!python/name:pymdownx.superfences.fence_code_format
+  - pymdownx.tasklist:
+      custom_checkbox: true
+  - toc:
+      permalink: '#'  # clickable url link when you click on a section https://www.mkdocs.org/user-guide/configuration/
+plugins:
+  - include-markdown:
+      trailing_newlines: false
+      comments: false
+  - search
+extra_css:
+  - css.css
