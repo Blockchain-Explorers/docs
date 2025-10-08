@@ -1,0 +1,28 @@
+.md-sidebar__scrollwrap {
+  border-right: 1px #80808036 solid;
+}
+.md-footer,
+.md-nav__title {
+  display: none;
+}
+.md-typeset .md-button--primary {
+  color: #ffffff;
+  background-color: #004c70;
+  border-color: #004c70;
+}
+.md-typeset .md-button--primary:hover {
+  color: #fef10a;
+  background-color: #004c70;
+  border-color: #004c70;
+}
+
+/* Selects the border of for admonition faq | question | help */
+.md-typeset :is(.admonition, details):is(.question, .help, .faq) {
+  border-color: #759460;
+}
+
+/* Selects the :before icon and the :after icon for admonition faq | question | help */
+.md-typeset :is(.question, .help, .faq) > :is(.admonition-title, summary):before,
+:is(.question, .help, .faq) > :is(.admonition-title, summary):after {
+  background-color: #759460;
+}
