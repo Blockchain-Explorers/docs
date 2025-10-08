@@ -1,3 +1,3 @@
-### Blockchain Explorers
+# Blockchain Explorers
 
-## Community Notes
+## Community Notes:
