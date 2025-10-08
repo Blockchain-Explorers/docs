@@ -28,7 +28,7 @@ This template is using [python](https://www.python.org/downloads/), [mkdocs](htt
 
 ### 6. Visit your website
 
-> Your website will be automatically available at `https://pages.github.ibm.com/YOUR_ORGANIZATION/YOUR_FORKED_REPO`
+> Your website will be automatically available at `https://YOUR_ORGANIZATION.github.io/YOUR_FORKED_REPO/`
 
 > The websites in GitHub Pages are always available to public audience. Make sure you don't expose any sensitive data in the website content.
 

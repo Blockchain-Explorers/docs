@@ -8,7 +8,7 @@ The template is using [python](https://www.python.org/downloads/), [mkdocs](http
 
 ## How to use
 
-1. Fork this **[repository](https://github.ibm.com/marek-kristofcak/github-pages-mkdocs-template/)** into your GitHub organization
+1. Fork this **[repository](https://krko12345.github.io/mkdocs-gh-pages-template/)** into your GitHub organization
 
 2. Clone the forked repository into your local folder
 
@@ -30,7 +30,7 @@ The template is using [python](https://www.python.org/downloads/), [mkdocs](http
 
 6. Visit your website
 
-    - Your updated website will be automatically available at `https://pages.github.ibm.com/YOUR_ORGANIZATION/YOUR_FORKED_REPO`
+    - Your updated website will be automatically available at `https://YOUR_ORGANIZATION.github.io/YOUR_FORKED_REPO/`
 
 </br>
 
