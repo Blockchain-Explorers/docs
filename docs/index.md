@@ -1,3 +1,3 @@
-### My Notes
+### Blockchain Explorers
 
-This is a place for notes of my private projects...
+## Community Notes
